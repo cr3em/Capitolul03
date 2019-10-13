@@ -1,4 +1,4 @@
- #include <iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -12,33 +12,28 @@ using namespace std;
 
 int main()
 {
-    int trimI = 3000;
-    int trimII = 5000;
-    int trimIII = 4000;
-    int trimIV = 2500;
-    int bilant = 8375;
-    char raspuns;
 
-    cout << "Alegeti trimestrul pe care vreti sa-l afisati\n";
+    cout << "Alegeti trimestrul pe care vreti sa-l afisati(1 - 4)\n";
+    char raspuns;
     cin >> raspuns;
 
-    while(raspuns < 49 || raspuns > 52){
+    while(raspuns < '1' || raspuns > '4'){
 
         cout << "Nu a-ti ales un trimestru valid, va rugam alegeti din nou\n";
         cin >> raspuns;
     }
 
     if(raspuns == '1'){
-        cout << "Profitul firmei pe trim. I este de " << trimI << " iar bilantul pe anul anterior este " << bilant << endl;
+        cout << "Profitul firmei pe trim. I este de 3000 iar bilantul pe anul anterior este 8375\n";
     }
-    if(raspuns == '2'){
-        cout << "Profitul firmei pe trim. II este de " << trimII << endl;
+    else if(raspuns == '2'){
+        cout << "Profitul firmei pe trim. II este de 5000\n";
     }
-    if(raspuns == '3'){
-        cout << "Profitul firmei pe trim. III este de " << trimIII << endl;
+    else if(raspuns == '3'){
+        cout << "Profitul firmei pe trim. III este de 4000\n";
     }
-    if(raspuns == '4'){
-        cout << "Profitul firmei pe trim. IV este de " << trimIV << endl;
+    else if(raspuns == '4'){
+        cout << "Profitul firmei pe trim. IV este de 2500\n";
     }
 
 
