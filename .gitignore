@@ -1,0 +1,16 @@
+
+calculPretMasina/.qmake.stash
+calculPretMasina/debug/calculPretMasina.exe
+calculPretMasina/Makefile.Release
+calculPretMasina/Makefile.Debug
+calculPretMasina/Makefile
+profitul_unei_firme/Makefile
+profitul_unei_firme/Makefile.Debug
+profitul_unei_firme/Makefile.Release
+*.stash
+*.o
+tabla_inmultirii_extinsa/Makefile
+*.Debug
+*.Release
+*.user
+*.exe

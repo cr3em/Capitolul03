@@ -19,7 +19,7 @@ int main()
     for(int i = 1; nr != 0 ; ++i){
         nr = nr / 10;
         cout << "Contor " << i << endl;
-       }
+    }
 
     return 0;
 }
